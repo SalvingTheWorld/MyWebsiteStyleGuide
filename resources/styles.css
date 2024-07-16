@@ -1,0 +1,157 @@
+
+/* General styling */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 1.5;
+    background-color: rgb(33, 37, 41);
+    color: rgb(222, 226, 230);
+}
+
+header > h1{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+header > p{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Adjusting colors */
+
+.container{
+    border: 1px solid rgb(222, 226, 230) ;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.container > h2{
+    margin: 0;
+    text-align: center;
+}
+
+.color-panel{
+    width: 30%;
+    text-align: center;
+    min-height: 100px;
+    font-size: 18px;
+}
+
+.color-container{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.color-container > .color-panel{
+    margin: 10px;
+}
+
+.riptide-blue{
+    border: 1px solid #36C2CE;
+    background-color: #36C2CE;
+    color: rgb(33, 37, 41);
+    border-radius: 5px;
+}
+
+.scooter-blue{
+    border: 1px solid #77E4C8;
+    background-color: #77E4C8;
+    color: rgb(33, 37, 41);
+    border-radius: 5px;
+}
+
+.havelock-blue{
+    border: 1px solid #478CCF;
+    background-color: #478CCF;
+    color: rgb(33, 37, 41);
+    border-radius: 5px;
+}
+
+.governor-bay{
+    border: 1px solid #4535C1;
+    background-color: #4535C1;
+    color: rgb(33, 35, 41);
+    border-radius: 5px; 
+}
+
+/* Styling colors' names font style */
+
+.color-name{
+    font-weight: bold;
+}
+
+/* Styling Fonts */
+
+.font-panel{
+    width: 45%;
+    display: inline;
+}
+
+.font-panel > p{
+    margin: 10px;
+    padding: 2px;
+} 
+
+.font-label{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.reem-kufi-fun{
+    font-family: "Reem Kufi Fun", sans-serif;
+}
+
+.mulish{
+    font-family: "Mulish", sans-serif;
+}
+
+.ubuntu{
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Styling Fonts */
+
+.text-panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-requirements {
+    margin-left: auto;
+    padding-bottom: 0px;
+}
+
+
+/* Rule set create to exclusively adjust the UL elements for the "Paragraph text" */
+.text-requirements-1{
+    padding-right: 45px; 
+}
+
